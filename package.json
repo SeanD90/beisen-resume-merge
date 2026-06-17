@@ -1,0 +1,19 @@
+{
+  "name": "beisen-resume-merge",
+  "version": "1.0.0",
+  "description": "北森招聘系统疑似简历自动合并脚本",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "start:headless": "tsx src/index.ts --headless"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

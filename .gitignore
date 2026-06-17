@@ -1,0 +1,6 @@
+node_modules/
+logs/
+browser-data/
+dist/
+.env
+*.log
